@@ -27,4 +27,14 @@ public class FizzBuzzTest {
 
         assertEquals(expectedResult, actualResult);
     }
+
+    @Test
+    public void getTokenNumberThreeShouldSayFizz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String expectedResult = "Fizz";
+
+        String actualResult = fizzBuzz.say(3);
+
+        assertEquals(expectedResult, actualResult);
+    }
 }
