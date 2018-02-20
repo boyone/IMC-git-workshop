@@ -1,9 +1,7 @@
-package test.java.dminer.service;
+package dminer.service;
 
 import org.junit.Ignore;
 import org.junit.Test;
-
-import main.java.dminer.service.FizzBuzz;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
